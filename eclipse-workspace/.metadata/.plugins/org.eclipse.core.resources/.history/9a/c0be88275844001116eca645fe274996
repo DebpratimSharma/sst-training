@@ -1,0 +1,23 @@
+package com.aot.series;
+import java.util.Scanner;
+public class FindNthTerm {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number of term: ");
+		int n = sc.nextInt();
+		int result = 0;
+		if(n==1 || n==2)
+			result = 1;
+		else if(n%2 == 0) { //the nth value is even.
+			result = (int) Math.pow(3,n/2);
+		}
+		else {
+			result = (int) Math.pow(2, n/2);
+		}
+		System.out.println("Result : "+result);
+		sc.close();
+	}
+
+}

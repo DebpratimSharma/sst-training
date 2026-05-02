@@ -12,7 +12,7 @@ public class SumOfSumsOfDigits {
 			sum +=(i+1)*Character.getNumericValue(str.charAt(i));
 		}
 		System.out.println("The sum of the sums is : "+sum);
-
+		sc.close();
 	}
 	
 }

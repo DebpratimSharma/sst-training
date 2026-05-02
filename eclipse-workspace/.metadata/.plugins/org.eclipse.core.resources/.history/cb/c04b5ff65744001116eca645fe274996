@@ -1,0 +1,12 @@
+package com.aot.series;
+import java.util.Scanner;
+public class FindNthTerm {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of term: ");
+		int n = sc.nextInt();
+		
+	}
+
+}
